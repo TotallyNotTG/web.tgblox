@@ -1,0 +1,196 @@
+.top-nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(220, 220, 220);
+}
+.logo {
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.games {
+    margin-left: 30px;
+}
+.shop {
+    margin-left: 40px;
+}
+.dev {
+    margin-left: 40px;
+}
+.currency {
+    margin-left: 40px;
+}
+.searchbar {
+    width: 250px;
+    height: 25px;
+    margin-top: -30px;
+    margin-left: 560px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px;
+}
+.main {
+    width: 1000px;
+    height: fit-content;
+    background-color: rgb(244, 244, 244);
+    margin-left: auto;
+    margin-right: auto;
+}
+.spinner {
+    position: absolute;
+    z-index: 100;
+    width: 1000px;
+    height: fit-content;
+    background: rgb(220, 220, 220) url(file:///:/Users/dalen/Documents/Game%20status/web.tgblox.com/tr.tgnblx.com/loader.gif.gif) no-repeat center;
+    background-size: 10%;
+}
+.loading{
+    background-color: #b3b3b3;
+    min-height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.loading::before {
+    background: center;
+    margin-top: -50px;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #d3d3d3, transparent);
+    transform: translateX(-100%);
+    animation: loading 1.5s infinite;
+}
+@keyframes loading {
+    100% {
+        transform: translateX(100%);
+    }
+}
+.friends-pfp {
+    width: 100px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 100px;
+    margin-top: 90px;
+}
+.side-nav {
+    margin-top: -20px;
+    height: 700px;
+    width: 200px;
+    background-color: rgb(200, 200, 200);
+}
+.side-nav-market {
+    margin-top: -20px;
+    width: 220px;
+    height: 1000px;
+    background-color: rgb(233, 233, 233);
+}
+.my-games {
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 180px;
+}
+.marketplace {
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+.marketplace:hover {
+    background-color: rgb(150, 150, 150);
+}
+.my-games:hover {
+    background: rgb(150, 150, 150);
+}
+.top-dev-nav {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(200, 200, 200);
+}
+.game-icon-big {
+    border-radius: 10px;
+}
+.failed-to-load {
+    margin-left: 400px;
+}
+.error-message {
+    margin-left: -10px;
+}
+.refresh {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0.2px solid;
+    margin-left: -60px;
+}
+.home-game-section {
+    margin-top: 280px;
+    margin-left: 10px;
+}
+.game-card {
+    border-radius: 10px;
+}
+.see-all {
+    margin-left: 800px;
+}
+.friends {
+    margin-top: 40px;
+    margin-left: 10px;
+    position: absolute;
+}
+.friends-error {
+    margin-top: 120px;
+    margin-left: 400px;
+}
+.username {
+    margin-top: -90px;
+    margin-left: 170px;
+}
+.models {
+    margin-top: -1000px;
+}
+.model-card {
+    width: 150px;
+    height: 250px;
+}
+.pfp-broken {
+    width: 150px;
+    margin-left: -154px;
+    border-radius: 100px;
+    margin-top: 10px;
+    background-image: url(file:///C:/Users/dalen/Documents/Game%20status/web.tgblox.com/tr.tgnblx.com/broken-icon2.svg);
+}
+.model-img {
+    width: 150px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+}
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
