@@ -6,4 +6,6 @@
 }
 .inside {
     display: block;
+} .play-error {
+    display: none;
 }
