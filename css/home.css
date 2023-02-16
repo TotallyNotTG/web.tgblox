@@ -43,6 +43,62 @@
     background: rgb(220, 220, 220) url(file:///:/Users/dalen/Documents/Game%20status/web.tgblox.com/tr.tgnblx.com/loader.gif.gif) no-repeat center;
     background-size: 10%;
 }
+.play-error {
+    margin-top: 40px;
+    margin-left: 10px;
+    position: absolute;
+    width: 290px;
+    height: 60px;
+    background-color: rgb(244, 244, 244);
+}
+.like-button {
+    width: 40px;
+}
+.dislike-button {
+    width: 40px;
+}
+.favorite {
+    width: 40px;
+}
+.loadingbig{
+    background-color: #b3b3b3;
+    min-height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.loadingbig::before {
+    background: center;
+    margin-top: -172px;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #d3d3d3, transparent);
+    transform: translateX(-100%);
+    animation: loading 2s infinite;
+}
+@keyframes loadingbig {
+    100% {
+        transform: translateX(100%);
+    }
+}
+.play-button-normal {
+    width: 280px;
+    height: 50px;
+    margin-top: 49px;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(5, 252, 137);
+    cursor: pointer;
+}
+.game-titles {
+    width: 300px;
+    margin-left: auto;
+    height: fit-content;
+    margin-top: -370px;
+}
 .loading{
     background-color: #b3b3b3;
     min-height: 30px;
