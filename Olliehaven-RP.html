@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OllieHaven 🏡RP - TGBlox</title>
+    <link rel="icon" type="x-icon" href="tr.tgnblx.com/Olliebloxlogov2.png">
+    <link rel="shortcut icon" type="x-icon" href="tr.tgnblx.com/Olliebloxlogov2.png">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="css/home.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="images.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="games.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="friends.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="api.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="rec.freinds.tgblox.com/l.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <img src="tr.tgnblx.com/Icon23.png" class="logo">
+        <a class="games" href="games.html">Games</a>
+        <a class="shop" href="shop.html">Shop</a>
+        <a class="dev" href="develop.html">Develop</a>
+        <a class="currency" href="tgbux.html">TGBux</a>
+        <p contenteditable="true" class="searchbar">Search</p>
+    </nav>
+    <div class="main">
+        <button class="gamecardbig loadingbig" id="gamecard"></button>
+        <div class="game-titles">
+            <h1 class="game-title">OllieHaven 🏡RP</h1>
+            <p class="made-by">By <a href="">OlliePaq</a></p>
+            <a href=""> ALL AGES</a>
+            <p class="play-error"> Unable to verify that you have access to this game. Please try again later.</p>
+            <button class="play-button-normal">Play</button>
+            <img src="tr.tgnblx.com/favorite.png" class="favorite">
+            <img src="tr.tgnblx.com/like.png" class="like-button">
+            <img src="tr.tgnblx.com/dislike.png" class="dislike-button">
+            <script>
+                setTimeout(() => {
+                       fetchData()
+                    }, 300)
+                function fetchData() {
+                       const gamecardbig = document.querySelector('.gamecardbig')
+              
+                       gamecardbig.innerHTML = "<img class='gamecardbig' src='https://tr.rbxcdn.com/f4d21d04402557b01437f6ed801bf5f9/480/270/Image/Png' />"
+                       gamecardbig.classList.remove('loadingbig')
+                    }
+            </script>
+        </div>
+    </div>
