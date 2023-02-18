@@ -167,6 +167,49 @@
     cursor: pointer;
     margin-left: 180px;
 }
+.user-avatar {
+    width: 352px;
+    height: 352px;
+    margin-left: -30px;
+}
+.avatar-error-message {
+    width: 1000px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(209, 35, 5);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.avatar-area-menu {
+    width: 700px;
+    height: 50px;
+    background-color: rgb(233, 233, 233);
+    margin-top: 250px;
+    margin-left: auto;
+}
+.my-avatar-pfp {
+    margin-top: -70px;
+}
+.avatar-container {
+    width: 300px;
+    height: 352px;
+    background-image: url(https://images.rbxcdn.com/a9755c3db57524e4bae224d4e5e99ba7-avatar-upsell-background.svg);
+    background-size: 118%;
+    border-radius: 10px;
+}
+.sections-av {
+    width: 112px;
+    height: 50px;
+    background-color: rgb(233, 233, 233);
+    border: 0px;
+    cursor: pointer;
+}
+.sections-av:hover {
+    background-color: rgb(200, 200, 200);
+}
+p {
 .marketplace {
     width: 100%;
     height: 50px;
