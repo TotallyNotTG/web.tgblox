@@ -45,12 +45,13 @@
     margin-right: auto;
 }
 .spinner {
+    margin-top: -356px;
     position: absolute;
     z-index: 100;
-    width: 1000px;
-    height: fit-content;
-    background: rgb(220, 220, 220) url(file:///:/Users/dalen/Documents/Game%20status/web.tgblox.com/tr.tgnblx.com/loader.gif.gif) no-repeat center;
-    background-size: 10%;
+    width: 300px;
+    height: 352px;
+    background: rgb(220, 220, 220) url(https://totallynottg.github.io/web.tgblox/tr.tgnblx.com/loader.gif.gif)no-repeat center;
+    background-size: 27%;
 }
 .play-error {
     margin-top: 40px;
