@@ -1,0 +1,7 @@
+.avatar-error-message {
+    display: none;
+}
+.user-avatar {
+    background: url(https://tr.rbxcdn.com/3c2d755cf3f3c77af2795a671410dd7c/352/352/Avatar/Png);
+    border: rgb(233, 233, 233);
+}
