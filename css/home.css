@@ -249,6 +249,35 @@
     margin-top: 280px;
     margin-left: 10px;
 }
+.event-name-time {
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+}
+.notifyer {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(45, 118, 174);
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.attending {
+    width: 50px;
+    border-radius: 100px;
+    background-color: rgb(200, 200, 200);
+}
+.event-time {
+    margin-left: 160px;
+}
+.event-title {
+    margin-top: -100px;
+    margin-left: 160px;
+}
+.event-img {
+    border-radius: 5px;
+}
 .game-card {
     border-radius: 10px;
 }
