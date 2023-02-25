@@ -17,3 +17,9 @@ document.write('                <img src="images.tgblox.com/game-card.png" class
 document.write('                <h2>Most Engaging</h2>');
 document.write('                <img src="images.tgblox.com/game-card.png" class="game-card">');
 document.write('            </div>');
+
+document.write('            <style>');
+document.write('                .games-error {');
+document.write('                     display: none;');
+document.write('              }');
+document.write('            </style>');
