@@ -1,5 +1,4 @@
 
-document.write('            <p class="friends-error">Unable to load friends.</p>');
 document.write('            <img class="friends-pfp loading" src="images.tgblox.com/freind1.png">');
 document.write('            <img class="friends-pfp loading" src="images.tgblox.com/friend4.png">');
 document.write('            <img class="friends-pfp loading" src="images.tgblox.com/friend2.png">');
