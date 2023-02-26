@@ -1,4 +1,4 @@
-document.write('<div class="sections">');
+document.write'<div class="sections">');
 document.write('                <h2>Continue</h2>');
 document.write('                <a href="https://totallynottg.github.io/web.tgblox/Olliehaven-RP"><img src="images.tgblox.com/game-card.png" class="game-card"></a>');
 document.write('                <img src="https://tr.rbxcdn.com/e94c9b4523f7fdef1c925792b55fc036/150/150/Image/Png" class="game-card">');
