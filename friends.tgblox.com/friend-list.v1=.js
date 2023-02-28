@@ -6,7 +6,7 @@ document.write('            <img class="friends-pfp loading" src="images.tgblox.
 document.write('            <img class="friends-pfp loading" src="images.tgblox.com/friend5.png">');
 document.write('            <img class="friends-pfp loading" src="tr.tgnblx.com/broken-icon2.svg">');
 document.write('            <img class="friends-pfp loading" src="tr.tgnblx.com/broken-icon2.svg">');
-document.write('            <img class="friends-pfp loading" src="tr.tgnblx.com/broken-icon2.svg">');
+document.write('            <img class="friends-pfp loading" src="tr.tgnblx.com/broken-icon2.svg">');a
 //
 
 document.write('            <style>');
