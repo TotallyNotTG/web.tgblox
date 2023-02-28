@@ -10,7 +10,7 @@ document.write('                <img src="https://tr.rbxcdn.com/16e942aa752ccd40
 document.write('                <img src="https://tr.rbxcdn.com/c447e1d5be8d04f06a55066c70407ba0/150/150/Image/Jpeg" class="game-card">');
 document.write('                <h2>Friends Played Most</h2>');
 document.write('                <img src="images.tgblox.com/game-card.png" class="game-card">');
-document.write('                <h2>Events</h2>'
+document.write('                <h2>Events</h2>');
 document.write('                <a href="https://totallynottg.github.io/web.tgblox/pls-donate-eventid=301"><img src="https://tr.rbxcdn.com/d9297b09371f3b7097357d69b2c23907/150/150/Image/Png" class="game-card"></a>');
 document.write('                <h2>Recommended For You</h2>');
 document.write('                <img src="images.tgblox.com/game-card.png" class="game-card">');
