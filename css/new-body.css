@@ -1,0 +1,10 @@
+.develop-loader {
+    width: 800px;
+    height: 200px;
+    background: rgb(244, 244, 244) url(https://totallynottg.github.io/web.tgblox/tr.tgnblx.com/loader.gif.gif) no-repeat center;
+    background-size: 12%;
+    position: absolute;
+}
+.migrate {
+    background-color: rgb(222, 222, 222);
+}
