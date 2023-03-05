@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Offers - TGBlox</title>
+    <link rel="icon" type="x-icon" href="tr.tgnblx.com/Olliebloxlogov2.png">
+    <link rel="shortcut icon" type="x-icon" href="tr.tgnblx.com/Olliebloxlogov2.png">
+    <script src="https://games.roblox.com/v1/games?universeIds=2380077519"></script>
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="css/home.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="images.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="games.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="friends.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="api.tgblox.com/l.css">
+    <link rel="stylesheet" onerror="Plaidblox.BundleDetector && Plaidblox.BundleDetector.reportBundleError(this)" data-bundlename="Maincss" data-bundle-source="Main" href="rec.freinds.tgblox.com/l.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <img src="tr.tgnblx.com/Icon23.png" class="logo">
+        <a class="games" href="games.html">Games</a>
+        <a class="shop" href="shop.html">Shop</a>
+        <a class="dev" href="develop.html">Develop</a>
+        <a class="currency" href="tgbux.html">TGBux</a>
+        <p contenteditable="true" class="searchbar">Search</p>
+    </nav>
+    <div class="main">
+        <div class="top-content-area">
+            <div class="offer-loader" id="loaderspinner"></div>
+            <h1>Trade Offers</h1>
+            <a href=""><button class="refresh-offers cursor-pointer" style="background-color: #00b06f; width: 180px; height: 25px; border: 0px; border-radius: 5px; color: white; font-size: 20px; margin-left: 600px; margin-top: -50px; position: absolute;">Refresh Offers</button></a>
+            <a href=""><button class="refresh-offers cursor-pointer" style="background-color: #0084dd; width: 180px; height: 25px; border: 0px; border-radius: 5px; color: white; font-size: 20px; margin-left: 800px; margin-top: -50px; position: absolute;">Create Offer</button></a>
+        </div>
+        <div class="trade-offer-content">
+            <div class="trade-offer" style="border-bottom: 0.25px solid;">
+                <p class="offering" style="margin-left: 450px;">Offering:</p>
+                <img src="https://tr.rbxcdn.com/7beb4c44ba4d47927662c2eb142d2c1e/420/420/AvatarHeadshot/Png" style="height: 125px; background-color: rgb(200,200,200);">
+            </div>
+            <div class="trade-offer" style="border-bottom: 0.25px solid;">
+                <p class="offering" style="margin-left: 450px;">Offering:</p>
+                <img src="https://tr.rbxcdn.com/881e0fe2e9b2652f636592b143de583b/150/150/AvatarHeadshot/Png" style="height: 125px; background-color: rgb(200,200,200);">
+            </div>
+            <div class="trade-offer" style="border-bottom: 0.25px solid;">
+                <p class="offering" style="margin-left: 450px;">Offering:</p>
+                <img src="https://tr.rbxcdn.com/63c4ff9e2b3a4c99860d172d3097c370/150/150/AvatarHeadshot/Png" style="height: 125px; background-color: rgb(200,200,200);">
+            </div>
+            <div class="trade-offer" style="border-bottom: 0.25px solid;">
+                <p class="offering" style="margin-left: 450px;">Offering:</p>
+                <img src="https://tr.rbxcdn.com/fed32caebb0f27adf3c13a41fc77244f/150/150/AvatarHeadshot/Png" style="height: 125px; background-color: rgb(200,200,200);">
+            </div>
+            <div class="trade-offer" style="border-bottom: 0.25px solid;">
+                <p class="offering" style="margin-left: 450px;">Offering:</p>
+                <img src="https://tr.rbxcdn.com/0630db9e3be7cd92fb4b8e00dcdc11df/150/150/AvatarHeadshot/Png" style="height: 125px; background-color: rgb(200,200,200);">
+            </div>
+            <div class="trade-offer" style="border-bottom: 0.25px solid;">
+                <p class="offering" style="margin-left: 450px;">Offering:</p>
+                <img src="https://tr.rbxcdn.com/07dbed1c761b2b0c888b0413de8d3e1a/150/150/AvatarHeadshot/Png" style="height: 125px; background-color: rgb(200,200,200);">
+            </div>
+            <div class="trade-offer" style="border-bottom: 0.25px solid;">
+                <p class="offering" style="margin-left: 450px;">Offering:</p>
+                <img src="https://tr.rbxcdn.com/e524ec508941111684c63d18bb3e1f78/150/150/AvatarHeadshot/Png" style="height: 125px; background-color: rgb(200,200,200);">
+            </div>
+        </div>
+    </div>
+    <script>
+        var spinner = document.getElementById("loaderspinner");
+  window.addEventListener("load", function(){
+      spinner.style.display = "none" 
+  }) 
+    </script>
+</body>    
+</html>
