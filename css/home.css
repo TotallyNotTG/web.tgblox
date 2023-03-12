@@ -475,6 +475,27 @@
     }
 }
 /*Avatar Shop CSS Ends*/
+/*Game Loader CSS Starts*/
+.loading-into-game {
+    width: 450px;
+    height: 250px;
+    background-color: rgb(210,210,210);
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -260px;
+    display: none;
+}
+.loading-logo {
+    margin-left: 170px;
+    height: 100px;
+}
+.loading-loader {
+    background: rgba(0,0,0,0) url(https://totallynottg.github.io/web.tgblox/tr.tgnblx.com/loader.gif.gif) no-repeat center;
+    background-size: 21%;
+    width: 100%;
+    height: 50px;
+}
+/*Game Loader CSS Ends*/
 p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
