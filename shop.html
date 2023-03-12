@@ -22,3 +22,44 @@
         <a class="currency" href="">TGBux</a>
         <p contenteditable="true" class="searchbar">Search</p>
     </nav>
+    <div class="main">
+        <h1>Avatar Shop</h1>
+        <nav class="side-nav-avatar-shop">
+            <h2>Catagory</h2>
+            <div class="nav-insides">
+                <a href="?Category=All-Items" class="all-items"><p>All Items</p></a>
+                <a href="?Category=Character"><p>Character</p></a>
+            </div>
+        </nav>
+        <div class="main-shop">
+            <a href="" class="all-items-title">All Items</a>
+            <input placeholder="🔍 Search" class="search-bar-avatar-shop"></input>
+            <div class="all-items-section">
+                <div class="shop-card">
+                    <div class="shop-img shop-item1 lazy-loading" id=" slazyloader"></div>
+                    <h3 class="shop-card-title shop-title1 lazy-loading" id=" lazyloader"></h3>
+                    <p class="shop-card-price shop-card-price1 lazy-loading" id=" lazyloader"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        setTimeout(() => {
+                       fetchData()
+            }, 300)
+              
+        function fetchData() {
+           const shopicon1 = document.querySelector('.shop-item1')
+           const shoptitle1 = document.querySelector('.shop-title1')
+           const shopcardprice1 = document.querySelector('.shop-card-price1')
+  
+           shopicon1.innerHTML = "<img style='background-color:rgb(200,200,200);border-radius:5px;' src='images.tgblox.com/face-dfgi8djigag.png'>"
+           shopicon1.classList.remove('lazy-loading')
+           shoptitle1.innerHTML = ":P"
+           shoptitle1.classList.remove('lazy-loading')
+           shopcardprice1.innerHTML = "$T 35 ($SC 0.15)"
+           shopcardprice1.classList.remove('lazy-loading')
+        }
+    </script>
+</body>
+</html>
