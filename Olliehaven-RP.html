@@ -30,20 +30,34 @@
             <p class="made-by">By <a href="">OlliePaq</a></p>
             <a href=""> ALL AGES</a>
             <p class="play-error"> Unable to verify that you have access to this game. Please try again later.</p>
-            <a href="https://web.roblox.com/games/12644018360?privateServerLinkCode=75067980755034031071524987876973"><button class="play-button-normal">Play</button></a>
+            <a href="https://web.roblox.com/games/12644018360?privateServerLinkCode=75067980755034031071524987876973"><button class="play-button-normal" id="play-button-popup">Play</button></a>
             <img src="tr.tgnblx.com/favorite.png" class="favorite">
             <img src="tr.tgnblx.com/like.png" class="like-button">
             <img src="tr.tgnblx.com/dislike.png" class="dislike-button">
-            <script>
-                setTimeout(() => {
-                       fetchData()
-                    }, 300)
-                function fetchData() {
-                       const gamecardbig = document.querySelector('.gamecardbig')
-              
-                       gamecardbig.innerHTML = "<img class='gamecardbig' src='https://tr.rbxcdn.com/f4d21d04402557b01437f6ed801bf5f9/480/270/Image/Png' />"
-                       gamecardbig.classList.remove('loadingbig')
-                    }
-            </script>
         </div>
+        <section class="background-darken">
+            <div class="loading-into-game" id="popup">
+                <img class="loading-logo" src="tr.tgnblx.com/Icon23.png">
+                <p style="text-align: center;">We are starting Ollieblox. GET READY!</p>
+                <div class="loading-loader"></div>
+            </div>
+        </section>
     </div>
+    <script>
+        setTimeout(() => {
+               fetchData()
+            }, 300)
+        function fetchData() {
+               const gamecardbig = document.querySelector('.gamecardbig')
+      
+               gamecardbig.innerHTML = "<img class='gamecardbig' src='https://tr.rbxcdn.com/f4d21d04402557b01437f6ed801bf5f9/480/270/Image/Png' />"
+               gamecardbig.classList.remove('loadingbig')
+            }
+    </script>
+    <script>
+        document.getElementById('play-button-popup').addEventListener('click', function() {
+    document.querySelector('#popup').style.display = 'block'
+});
+    </script>
+</body>
+</html>
